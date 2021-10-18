@@ -1,0 +1,28 @@
+{% extends "layout.html" %} 
+{% block title %} Home {% endblock %} 
+{% block body%}
+    <div id="error">
+    {% if message %}
+        <div class="alert alert-danger" role="alert">
+            {{message}}
+        </div>
+    {% endif %}
+    </div>
+    <div class="container py-5">
+    <div class="form m-auto bg-white p-5">
+    <form action="/login" method="post" id="form">
+        <h2 class="mb-4">Login in</h2>
+        <div class="form-group"> 
+        <label for="exampleInputEmail1">Username</label>
+        <input name="username" class="form-control" type="text"  autocomplete="off" id="username" placeholder="Enter Username">
+        </div>
+        <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+        <div class="small mt-3">don't have an account<a href="/register"> register now</a></div>
+    </form>
+    </div>
+    </div>
+{% endblock %}

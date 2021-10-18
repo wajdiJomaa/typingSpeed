@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block css%}
+<link rel="stylesheet" href="../static/leadboards.css">
+{% endblock %}
+{% block body %}
+<div class="container">
+<table class="table mt-5 mx-auto">
+    <thead>
+    <tr>
+        <th >username</th>
+        <th>score</th>
+        <th>rank</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for i in range(length) %}
+        <tr>
+            <td>{{scores[i][0]}}</td>
+            <td>{{scores[i][1]}} wpm</td>
+            <td>#{{i+1}}</td>
+        </tr>
+    {% endfor %}    
+    </tbody>
+    </table>
+    </div>
+{% endblock %}

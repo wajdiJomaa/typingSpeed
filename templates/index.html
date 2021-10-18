@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block css %}
+<link rel="stylesheet" href="../static/index.css">
+{% endblock %}
+{% block title%}
+    typeSpeed
+{% endblock %}
+{% block body %}
+    <div class="container my-5">
+        <div class="hidden" id="word_c">{{word_c}}</div>
+        <div class="paragraph p-5">
+            <p>
+            {% for p in paragraph %}
+                <span>{{ p }} </span>
+            {% endfor %}
+            </p>
+        </div>
+        <div class="my-4" id="buttons">
+        <button type="button" class="btn px-4 py-2" id="btn">Start</button>
+        </div>
+        <div class="my-4">
+        <input class="form-control " type="text" placeholder="type here…" id="input" >
+        </div>
+        <div id="results" class="mt-3"></div>
+    </div>
+    <script src ="../static/index.js"></script>
+{% endblock %}

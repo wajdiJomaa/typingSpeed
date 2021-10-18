@@ -1,0 +1,29 @@
+p
+{
+    color:rgb(92, 145, 189);
+    font-size:large;
+    font-weight:bold;
+}
+.paragraph
+{
+    background-color: white;
+}
+.btn
+{
+    background-color:rgb(230, 193, 29);
+    color:white;
+}
+.result{
+    color:white;
+}
+.green
+{
+    color:rgb(19, 202, 19);
+}
+.red{
+    color:rgb(221, 117, 117);
+}
+.hidden
+{
+    display:none;
+}
