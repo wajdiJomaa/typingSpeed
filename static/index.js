@@ -1,5 +1,5 @@
 var input = document.getElementById("input");
-var btn = document.getElementById("btn");
+// var btn = document.getElementById("btn");
 var buttons = document.getElementById("buttons");
 // var words = document.getElementsByTagName("span");
 var letters = document.getElementsByClassName("letter");
@@ -44,6 +44,7 @@ function handle(e)
                 {
                     console.log("end");
                     var seconds = (new Date().getTime() - startDate)/1000;
+                    console.log(seconds);
                     input.removeEventListener("input",handle);
                     buttons.innerHTML ='<button type="button" class="btn px-4 py-2" id="btn2">Play again</button>';
                     btn2 = document.getElementById("btn2");
@@ -78,14 +79,7 @@ function handle(e)
         }
     }
     
-    fetch("/score", {
-        method: "POST", 
-        body: JSON.stringify(data)
-        }).then(res => {
-    console.log("Request complete! response:", res);
-    });
-                
-                }
+    }
 // function handle(event)
 // {
 //     var l = words[w_c].textContent;
@@ -130,10 +124,22 @@ function handle(e)
 //     }
 // }
 
-btn.addEventListener("click", function(e){
-    input.addEventListener("input",handle);
-    input.focus();
-    // document.addEventListener("keypress",handle);
-    startDate = new Date().getTime();
-    e.target.classList.add("hidden");})
+// btn.addEventListener("click", function(e){
+    
+    
+    var divInterval = document.getElementById("interval");
+    var  countdown = 4;
+    var interval = setInterval(() => {
+        divInterval.innerHTML = countdown;
+        countdown -- ;
+    }, 1000);
+    setTimeout(function(){
+        input.focus();
+        divInterval.innerHTML = "";
+        clearInterval(interval);
+        input.addEventListener("input",handle);
+        startDate = new Date().getTime();    
+    },5000);
+    
+    // e.target.classList.add("hidden");})
 

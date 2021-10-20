@@ -1,4 +1,6 @@
-
+span{
+    display:inline-block;
+}
 .paragraph
 {
     color:white;
@@ -7,7 +9,7 @@
 }
 .letter
 {
-    font-size: 25px;
+    font-size: 23px;
 }
 .btn
 {
@@ -16,6 +18,7 @@
 }
 .result{
     color:white;
+    font-weight: bold;
 }
 .green
 {
@@ -28,4 +31,9 @@
 .hidden
 {
     display:none;
+}
+#interval
+{
+    color:white;
+    font-size:20px;
 }
