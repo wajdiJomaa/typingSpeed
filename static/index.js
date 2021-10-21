@@ -1,5 +1,5 @@
 var input = document.getElementById("input");
-// var btn = document.getElementById("btn");
+var btn = document.getElementById("btn");
 var buttons = document.getElementById("buttons");
 // var words = document.getElementsByTagName("span");
 var letters = document.getElementsByClassName("letter");
@@ -124,9 +124,7 @@ function handle(e)
 //     }
 // }
 
-// btn.addEventListener("click", function(e){
-    
-    
+btn.addEventListener("click", function(e){   
     var divInterval = document.getElementById("interval");
     var  countdown = 4;
     var interval = setInterval(() => {
@@ -140,6 +138,5 @@ function handle(e)
         input.addEventListener("input",handle);
         startDate = new Date().getTime();    
     },5000);
-    
-    // e.target.classList.add("hidden");})
+    e.target.classList.add("hidden");})
 
