@@ -6,9 +6,9 @@ the website has 6 routes or pages :
 
 ![Screenshot from 2021-10-23 00-21-18](https://user-images.githubusercontent.com/84613279/138524327-bb3bc971-8f53-4790-b599-4670b69fd53d.png)
 
-2.A login page it will check if the username and password match then create a session for the user.!
+2.A login page it will check if the username and password match then create a session for the user.
 
-[Screenshot from 2021-10-23 00-21-15](https://user-images.githubusercontent.com/84613279/138524351-42e9f165-d53e-428f-8bd6-412cc57ced45.png)
+![Screenshot from 2021-10-23 00-21-15](https://user-images.githubusercontent.com/84613279/138524351-42e9f165-d53e-428f-8bd6-412cc57ced45.png)
 
 3.The main page: this page will send a http request to this website "http://metaphorpsum.com/paragraphs/1" as a response it will get a random paragraph and display it to the user after pressing the start button a timer start and the user should write this paragraph in an input field as fast as possible after completing the timer stop and the average typing speed is calclated with a simple math word_number/time(minutes) 
 and a request with the typing speed will be sent to the app to update the database.well let's talk a little about what happens when the user is typing,let's say the user has to type the word "hello "
