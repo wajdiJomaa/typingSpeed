@@ -29,7 +29,7 @@ I tried another methods for checking but i think this one is the best atleast fo
 
 Finally we have just one small problem remaining
 the annoying touchpad random clicks that blur the input so i added a simple line of code to the inputfield
-`onblur = this.focus()" it helps a little bit`
+`onblur = this.focus()` it helps a little bit
 
 ![Screenshot from 2021-10-23 00-22-58](https://user-images.githubusercontent.com/84613279/138524450-6cac3b5b-38e0-4797-8d85-01014d35a89b.png).
 
