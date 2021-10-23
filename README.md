@@ -1,7 +1,7 @@
 # typingSpeed
 
 This is my final project for cs50 introduction to computer science
-a typing speed website.
+a typing speed website with python-flask for beckend.
 
 The website has 6 routes or pages :
 
@@ -40,6 +40,12 @@ the annoying touchpad random clicks that blur the input so i added a simple line
 ![Screenshot from 2021-10-23 00-24-11](https://user-images.githubusercontent.com/84613279/138524560-6c4a1f57-32dc-4624-a852-219eaea54f9c.png)
 
 6.the logout nothing specific about this route just clear the
- session.
+session.
+
+To run the app :
+
+1. install python3.
+2. install flask , `pip install flask`.
+3. run the command `python3 app.py`.
 
 That's all enjoy!.
