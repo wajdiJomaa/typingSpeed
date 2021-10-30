@@ -1,11 +1,11 @@
-# typingSpeed
+# typingSpeed/flask-project
 
 This is my final project for cs50 introduction to computer science
 a typing speed website with python-flask for backend.
 
 The website has 6 routes or pages :
 
-1. A register route, where you can register for a new account by applying a form(username/passorwd), it uses js regex to do some checks.
+1. A register route, where you can register for a new account by applying a form(username/password), your info should pass some js regex checks.
 
     ![Screenshot from 2021-10-23 00-21-18](https://user-images.githubusercontent.com/84613279/138524327-bb3bc971-8f53-4790-b599-4670b69fd53d.png)
 
@@ -13,9 +13,9 @@ The website has 6 routes or pages :
 
     ![Screenshot from 2021-10-23 00-21-15](https://user-images.githubusercontent.com/84613279/138524351-42e9f165-d53e-428f-8bd6-412cc57ced45.png)
 
-3. The main page: this page will send an http request to this website "http://metaphorpsum.com/paragraphs/1", as a response it will get a random paragraph and display it to the user. 
+3. The main page: this page will send an http request to this website "http://metaphorpsum.com/paragraphs/1", as a response, it will get a random paragraph and displays it to the user. 
 
-    To start playing press the start button, a timer starts and the user should write this paragraph in an input field as fast as possible. 
+    To start playing press the start button, a timer starts and the user should write the displayed paragraph in an input field as fast as possible. 
 
     After typing the paragraph, the timer stops, and the average typing speed is calculated usimg this simple formula  number of words/time (in minutes). A request with the typing speed will be sent to the app to update the database.
 
@@ -42,12 +42,12 @@ The website has 6 routes or pages :
 6. the logout nothing specific about this route just clear the
 session.
 
-### Usage
+## Usage
 
 To run the app :
 
 1. install python3.
-2. install flask , `pip install flask`.
+2. install flask , `pip3 install flask`.
 3. run the command `python3 app.py`.
 
 That's all enjoy!.
