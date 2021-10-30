@@ -1,17 +1,21 @@
 # typingSpeed/flask-project
 
 This is my final project for cs50 introduction to computer science
-a typing speed website with python-flask for backend.
+(https://cs50.harvard.edu/college/2021/fall) a typing speed website with python-flask for backend.
 
 The website has 6 routes or pages :
 
 1. A register route, where you can register for a new account by applying a form(username/password), your info should pass some js regex checks.
 
+
     ![Screenshot from 2021-10-23 00-21-18](https://user-images.githubusercontent.com/84613279/138524327-bb3bc971-8f53-4790-b599-4670b69fd53d.png)
+
 
 2. A login page, it will check if the username and password match then creates a session for the user.
 
+
     ![Screenshot from 2021-10-23 00-21-15](https://user-images.githubusercontent.com/84613279/138524351-42e9f165-d53e-428f-8bd6-412cc57ced45.png)
+
 
 3. The main page: this page will send an http request to this website "http://metaphorpsum.com/paragraphs/1", as a response, it will get a random paragraph and displays it to the user. 
 
@@ -31,13 +35,17 @@ The website has 6 routes or pages :
     the annoying touchpad with random clicks that blur the input so i added a simple line of code to the inputfield
     `onblur = this.focus()` it helps a little bit
 
+
     ![Screenshot from 2021-10-23 00-22-58](https://user-images.githubusercontent.com/84613279/138524450-6cac3b5b-38e0-4797-8d85-01014d35a89b.png).
+
 
 4. the score page well you wont see this page at all, just when a game is finished this route will receive the score to update the database.
 
 5. the leadboards where you can the top 10 users with highest speed.
 
+    
     ![Screenshot from 2021-10-23 00-24-11](https://user-images.githubusercontent.com/84613279/138524560-6c4a1f57-32dc-4624-a852-219eaea54f9c.png)
+
 
 6. the logout nothing specific about this route just clear the
 session.
