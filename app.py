@@ -49,7 +49,7 @@ def index():
     if session.get("user_id") == None:
         return redirect(url_for("login"))
 
-    url ="http://metaphorpsum.com/paragraphs/1"
+    url ="http://metaphorpsum.com/sentences/1"
     response = requests.get(url)
     paragraph = response.text
     paragraph = paragraph.split(' ')
