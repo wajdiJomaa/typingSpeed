@@ -53,7 +53,7 @@ The logout was just a redirect to the login page, and the login page will clear 
 
 The most challenging page was the typing route, i tried different things, then i decided the following :
 
-1.A paragraph is displayed with big font-size in the middle of the screen.
+1. A paragraph is displayed with big font-size in the middle of the screen.
 2. The user should type the paragraph in an input field. I tried to listen to  the keyboard events, but i think the input field is better.
 3. you should press a start button before you start, and after pressing the button you have to wait for 5 seconds.
 4. when you start typing, if you type things correctly in the input field they will be colored blue, but if you got a typo the letter will be colored red, and you should fix it before you complete typing, the input field is cleared after typing each word.
