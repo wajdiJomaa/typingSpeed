@@ -2,7 +2,7 @@
 
 Hi there, this blog is about what I learned in cs50 and my final project.
 
-## What is cs50?
+## What is CS50?
 
 Among all programming courses, maybe cs50 is the most popular, especially for beginners, in 10 weeks you will learn different topics from Scratch to C, python,  SQL, frontend, and backend, you have to solve some challenging problems every week, and at the end of the course, you have to create a final project.  
 
