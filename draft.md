@@ -36,7 +36,7 @@ First, I was very confused about what to do, I was planning to create a website 
 
 Weekly, I spend some time using typing speed websites to increase my typing speed because I'm learning to program and I want to be a fast typer, so when I was searching for some ideas I thought that maybe I could create my own typing speed website.
 
-The website has different pages as following :
+The website has different pages as follows :
 
 
 ### Register
