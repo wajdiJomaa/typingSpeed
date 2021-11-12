@@ -69,6 +69,6 @@ I want to thank Harvard University, David Malan, and the rest of the cs50 team f
 
 But thank god after about 10 weeks of work, I watched all lectures and solved all the problems. Finally, I would say thanks to my teacher who helped me to complete the course.
 
-## Date.
+## Date
 
 I completed this course in the summer of 2021, before starting my third year of computer science at the Lebanese university.
