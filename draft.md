@@ -34,7 +34,7 @@ First, I was very confused about what to do, I was planning to create a website 
 
 ## the typing speed website 
 
-Weekly, I spend some time using typing speed websites to increase my typing speed because I'm learning to program and I want to be a fast typer, so when I was searching for some ideas I thought that maybe I could create my own typing speed website.
+Weekly, I spend some time using typing speed websites to increase my typing speed because I'm learning to program and I want to be a fast typer, so when I was searching for some ideas I thought that maybe I could create my typing speed website.
 
 The website has different pages as follows :
 
@@ -51,7 +51,7 @@ The logout was just a redirect to the login page, and the login page will clear 
 
 ### Typing speed page
 
-The most challenging page was the typing route, I tried different things, then i decided the following :
+The most challenging page was the typing route, I tried different things, then I decided the following :
 
 1. A paragraph is displayed with big font size in the middle of the screen.
 2. The user should type the paragraph in an input field. I tried to listen to the keyboard events, but I think the input field is better.
