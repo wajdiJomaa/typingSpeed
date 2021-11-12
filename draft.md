@@ -59,7 +59,7 @@ The most challenging page was the typing route, I tried different things, then i
 4. when you start typing, if you type things correctly in the input field they will be colored blue, but if you got a typo the letter will be colored red, and you should fix it before you complete typing, the input field is cleared after typing each word.
 5. when you finish, the web app will calculate your typing speed, and display it.
 
-### Leadbords page 
+### Leaderbords page 
 
 Finally, the leaderboards page will grab the top 10 fastest users from the database and display them.
 
