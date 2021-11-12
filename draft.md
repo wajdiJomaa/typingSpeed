@@ -72,6 +72,9 @@ The most challenging page was the typing route, I tried different things, then I
 
 Finally, the leaderboards page will grab the top 10 fastest users from the database and display them.
 
+![Screenshot at 2021-11-12 09-22-06](https://user-images.githubusercontent.com/84613279/141426713-68ca03bf-5fa7-4752-8dcf-276f86429f61.png)
+
+
 ## What I have learned from CS50 and what I think about it
 
 I want to thank Harvard University, David Malan, and the rest of the cs50 team for making this great course available online and free. In this course, I've learned the basics of programming and computer science, and what makes the course challenging are the problem sets, the majority of problems were somehow related to real-life problems, and were not easy to solve,  sometimes I would feel frustrated when I get stuck, or when I have a lot of errors in my code, especially when the error is a "segmentation fault". 
