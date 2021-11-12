@@ -43,11 +43,17 @@ The website has different pages as follows :
 
 First, I created a page to register users or a register route, this idea was in the problem set of week 10, so this helped me.
 
+![Screenshot at 2021-11-12 09-15-16](https://user-images.githubusercontent.com/84613279/141426387-42d3c938-26f7-4daa-899b-3e2d0ca5fad9.png)
+
+
 ### Login and Logout
 
 Creating the login page wasn't a hard task also, you should just check if the user's information is in your database and if the password is correct, then put the user id in the Session.
 
 The logout was just a redirect to the login page, and the login page will clear the session for the user.
+
+![Screenshot at 2021-11-12 09-15-01](https://user-images.githubusercontent.com/84613279/141426425-9a9139e3-0799-4e8d-81e0-9a3439a12268.png)
+
 
 ### Typing speed page
 
@@ -58,6 +64,9 @@ The most challenging page was the typing route, I tried different things, then I
 3. you should press a start button before you start, and after pressing the button you have to wait for 5 seconds.
 4. when you start typing, if you type things correctly in the input field they will be colored blue, but if you got a typo the letter will be colored red, and you should fix it before you complete typing, the input field is cleared after typing each word.
 5. when you finish, the web app will calculate your typing speed, and display it.
+
+![Screenshot at 2021-11-12 09-15-34](https://user-images.githubusercontent.com/84613279/141426483-171289a8-2ce7-4234-a2a8-d087977a90fa.png)
+
 
 ### Leaderbords page 
 
