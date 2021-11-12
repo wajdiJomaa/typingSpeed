@@ -10,7 +10,6 @@ app.secret_key = "fjdisjifhhddfiojpihfhpfd"
 db = sqlite3.connect('mydb.db',check_same_thread=False)
 c = db.cursor()
 
-
 @app.route("/register",methods=["GET","POST"])
 def register():
     if request.method == "GET":
